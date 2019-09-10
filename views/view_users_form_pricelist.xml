@@ -8,12 +8,10 @@
         <field name="arch" type="xml">
            <xpath expr="//page[@name='access_rights']//field[@name='sel_groups_1_9_10']" position="after">
                <group string="Allowed Pricelist">
-                    <field string="Allowed Pricelist" name="pricelist_ids" widget="many2many_tags" options="{'no_create': True}"/>
+                    <field string="Allowed Pricelist" name="pricelist_ids" widget="many2many_tags" options="{'no_create': True}" colspan="2"/>
                </group>
             </xpath>
         </field>
     </record>
 
 </odoo>
-
-
