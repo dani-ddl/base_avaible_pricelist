@@ -36,10 +36,11 @@
     ],
     'license': 'AGPL-3',
     'data': [
+        'security/security_pricelist_rules.xml',
         'views/view_users_form_pricelist.xml',
     ],
     'demo': [
     ],
     'installable': True,
-    'auto_install': False,
+    'auto_install': True,
 }
